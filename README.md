@@ -53,6 +53,7 @@ command to run the project.
 
 ## Console Log for GIN Backend API
 
+```
 ezhilsivarajradhakrishnan@Ezhils-MacBook-Pro cmd % go run main.go
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
@@ -70,5 +71,7 @@ Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-
 2024/05/07 12:32:48 Directory temp exists
 2024/05/07 12:32:48 Temporary WAV file path: temp/1562843887.wav
 [GIN] 2024/05/07 - 12:32:49 | 200 | 733.861ms | ::1 | POST "/convert"
+
+```
 
 ## Go responds in just 7.541µs for test request.
