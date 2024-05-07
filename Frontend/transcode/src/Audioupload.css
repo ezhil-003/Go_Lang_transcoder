@@ -1,0 +1,66 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 80px;
+    /*background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    */
+    backdrop-filter: blur(2px) saturate(175%);
+    -webkit-backdrop-filter: blur(2px) saturate(175%);
+    background-color: rgba(17, 25, 40, 0.62);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    width: 510px;
+    height: 50px;
+    padding: 10px;
+    border-color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+}
+
+input[type=file]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 1s ease-out 50ms;
+    transition: color 1s ease-in 50ms;
+    
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #4d4d4d;
+    color: #ffff;
+}
+
+input[type="file"]::file-selector-button:active {
+    background-color: #e5e7eb;
+}
