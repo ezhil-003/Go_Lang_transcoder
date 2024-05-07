@@ -38,13 +38,17 @@ I made this Project in the MacBook Pro M3 Chip
 -First install GO SDK on your device.
 -Then install node on your device.
 -Install FFMPEG cmd tool kit from its official page,
-for mac 
-    brew install ffmpeg
+for mac
+
+     brew install ffmpeg
+
 -Run 
     npm install 
 to install depndencies.
 -Now Run 
+
     go run main.go
+    
 command to run the project.
 
 ## Console Log for GIN Backend API
