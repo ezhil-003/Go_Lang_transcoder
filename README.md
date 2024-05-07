@@ -2,12 +2,10 @@
 
 "Life starts with the Sound of the Heart Beats"
 
-    An Audio transcoding engine can convert audio files from one format to
+An Audio transcoding engine can convert audio files from one format to another,
+making it suitable for most cases and environments.
 
-another, making it suitable for most cases and environments.
-
-    Our transcoding engine will offer a range of advanced features to ensure
-
+Our transcoding engine will offer a range of advanced features to ensure
 optimal performance and user experience. To achieve speed and performance we
 use Go language a modern C language which is faster, more robust and easier to
 implement as C, The Go language directly compiles a high-level language
@@ -40,9 +38,14 @@ I made this Project in the MacBook Pro M3 Chip
 -First install GO SDK on your device.
 -Then install node on your device.
 -Install FFMPEG cmd tool kit from its official page,
-for mac "brew install ffmpeg".
--Run "npm install" to install depndencies.
--Now Run "go run main.go" command to run the project.
+for mac 
+    brew install ffmpeg
+-Run 
+    npm install 
+to install depndencies.
+-Now Run 
+    go run main.go
+command to run the project.
 
 ## Console Log for GIN Backend API
 
