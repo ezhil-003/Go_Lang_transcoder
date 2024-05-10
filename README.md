@@ -1,4 +1,4 @@
-# Audio Transcodeing Engine Using Go Language
+# Audio Transcoding Engine Using Go Language
 
 "Life starts with the Sound of the Heart Beats"
 
